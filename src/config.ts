@@ -1,92 +1,68 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Lincoln Santana",
+  title: "Software Developer and Educator",
+  description: "Portfolio website of Lincoln",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    linkedin: "https://linkedin.com/in/lincolnsant",
+    github: "https://github.com/lincolnsantana",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I hold a degree in Computer Science from the Federal Institute of Education, Science and Technology of Bahia (IFBA) and currently work as a Junior Developer Instructor at Rocketseat, focusing on the Rocketseat Faculty of Technology (FTR). My work centers on Artificial Intelligence and Data, aligning technical and educational knowledge to empower future professionals in the field.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Miauduino",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "This is an embedded system developed to control the release of feed in a cat feeder at IFBA in Jacobina. This project automates a task previously performed by humans, providing greater effectiveness, efficiency, and contributing to the improvement of the quality of life of these animals.",
+      link: "https://github.com/zolppy/miauduino",
+      skills: ["Arduino", "C++"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Legal chatbot using RAG as a knowledge base",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "In this project, I developed a chatbot for legal inquiries using AWS, LangChain, ChromaDB, and Telegram. The data was stored in an S3 bucket and accessed through the AWS Bedrock query engine. Additionally, the system integrates AWS CloudWatch for monitoring and logging the processed data.",
+      link: "https://github.com/",
+      skills: ["LangChain", "ChromaDB", "AWS"],
     },
     {
-      name: "ExtensionKit",
+      name: "Electronic Invoice Processing with AWS Lambda and Amazon Textract",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "In this project, I developed a REST API to receive images of electronic invoices, transcribe them using Amazon Textract, process the data using NLTK for NLP, refine and format the data with Groq's LLM API, and store the processed invoices in an S3 bucket. Invoices paid in cash or PIX are moved to the 'cash' folder, while other payment methods are moved to the 'other' folder.",
+      link: "https://github.com/",
+      skills: ["API REST", "NLP", "AWS"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Rocketseat",
+      title: "Developer Instructor Jr.",
+      dateRange: "May 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "I work in the education team, specifically for the Rocketseat College of Technology (FTR).",
+        "I produce, review, and seek improvements in content focused on Artificial Intelligence, Automation, and data."
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "CompassUOL",
+      title: "Internship in Artificial Intelligence and Machine Learning",
+      dateRange: "oct 2024 - Mar 2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "I developed skills focused on Artificial Intelligence through the AWS ecosystem.",
+        "Projects developed focusing on the use of AI within AWS.",
+        "AWS Certification (CLF-002) obtained through this internship program.",
       ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Federal Institute of Education, Science and Technology of Bahia (IFBA)",
+      degree: "Bachelor's Degree in Computer Science",
+      dateRange: "2017 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "I participated in the founding of the Academic Center (CA) for my course.",
+        "My final course project (TCC) has become a reference academic work in my course, helping beginning students understand how an academic paper is structured and written.",
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
   ],
 };
